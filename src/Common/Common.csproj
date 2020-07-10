@@ -1,5 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">  
-<PropertyGroup>
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
     <TargetFrameworks>netstandard2.1</TargetFrameworks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
@@ -28,5 +28,18 @@
       <Version>2.2.8</Version>
     </PackageReference>
   </ItemGroup>
+
+  <PropertyGroup>
+    <PackageId>autosys.WebHost</PackageId>
+    <Title></Title>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0-alpha1</Version>
+    <Authors>https://github.com/vasyagaga</Authors>
+    <Company>Autonomous Systems Ltd.</Company>
+    <RepositoryUrl>https://github.com/vasyagaga/WebHost</RepositoryUrl>
+    <RepositoryCommit></RepositoryCommit>
+  </PropertyGroup>
+
+
 
 </Project>
